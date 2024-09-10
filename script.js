@@ -6,41 +6,41 @@
 function startGame() {
 
   /* Declaring variables for the buttons that are answers to the first question */
- const answer1 = document.getElementById("answer1");
- const answer2 = document.getElementById("answer2");
- const answer3 = document.getElementById("answer3");
- const answer4 = document.getElementById("answer4");
- const restartGame = document.getElementById("restartGame");
+  const answer1 = document.getElementById("answer1");
+  const answer2 = document.getElementById("answer2");
+  const answer3 = document.getElementById("answer3");
+  const answer4 = document.getElementById("answer4");
+  const restartGame = document.getElementById("restartGame");
 
- /* Changing the text to first question */
- const currentText = document.getElementById("currentText");
- currentText.innerText = "Which animal is known as the king of the jungle?"
-
-
-
- /* Removing the start and try again button */
- const startBtn = document.getElementById("startBtn");
- startBtn.hidden = true;
+  /* Changing the text to first question */
+  const currentText = document.getElementById("currentText");
+  currentText.innerText = "Which animal is known as the king of the jungle?"
 
 
-/* Making the 4 buttons appear */
- answer1.hidden = false;
- answer2.hidden = false;
- answer3.hidden = false;
- answer4.hidden = false;
- restartGame.hidden = true;
 
- /* Changing the text on the 4 buttons to answers */
- answer1.innerText = "Lion";
- answer2.innerText = "Tiger";
- answer3.innerText = "Airplane";
- answer4.innerText = "Elephant";
+  /* Removing the start and try again button */
+  const startBtn = document.getElementById("startBtn");
+  startBtn.hidden = true;
+
+
+  /* Making the 4 buttons appear */
+  answer1.hidden = false;
+  answer2.hidden = false;
+  answer3.hidden = false;
+  answer4.hidden = false;
+  restartGame.hidden = true;
+
+  /* Changing the text on the 4 buttons to answers */
+  answer1.innerText = "Lion";
+  answer2.innerText = "Tiger";
+  answer3.innerText = "Airplane";
+  answer4.innerText = "Elephant";
 
 }
 
 function answerCorrect() {
 
- /* Declaring variables for the buttons */
+  /* Declaring variables for the buttons */
   const answer1 = document.getElementById("answer1");
   const answer2 = document.getElementById("answer2");
   const answer3 = document.getElementById("answer3");
@@ -98,7 +98,7 @@ function answerWrong() {
   answer7.hidden = true;
   answer8.hidden = true;
   restartGame.hidden = false;
-  
+
 
 }
 
@@ -110,7 +110,7 @@ function nextQuestion() {
   const answer8 = document.getElementById("answer8");
   const nextQuestion = document.getElementById("nextQuestion");
   const currentText = document.getElementById("currentText");
-  
+
   nextQuestion.hidden = true;
   answer5.hidden = false;
   answer6.hidden = false;
@@ -143,14 +143,14 @@ function questionThree() {
   answer6.hidden = true;
   answer7.hidden = true;
   answer8.hidden = true;
-  
 
-  
+
+
 
 
 }
 
 
 function questionFour() {
-  
+
 }
