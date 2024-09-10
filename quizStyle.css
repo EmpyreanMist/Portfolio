@@ -17,5 +17,8 @@ body {
 }
 
 #homeBtn {
+  position: absolute;
+  top: 45%;
+  left: 89%;
   background-color: red;
 }
