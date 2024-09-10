@@ -11,7 +11,8 @@
 
 <body>
 
-  <h1 id="currentText">Welcome to the Animal Kingdom Quiz</h1>
+  <h1 id="currentText">Welcome to the Animal Kingdom Quiz</h1><br>
+  
   
 
   <button onclick="startGame()" id="startBtn">Start Game</button>
@@ -19,13 +20,26 @@
   <button id="homeBtn">Exit Game</button>
   </a>
 
-  <button hidden id="answer1" onclick="firstAnswerCorrect()"></button>
-  <button hidden id="answer2" onclick="firstAnswerWrong()"></button>
-  <button hidden id="answer3" onclick="firstAnswerWrong()"></button>
-  <button hidden id="answer4" onclick="firstAnswerWrong()"></button>
+  <button hidden id="answer1" onclick="answerCorrect()" class="pink"></button>
+  <button hidden id="answer2" onclick="answerWrong()" class="pink"></button>
+  <button hidden id="answer3" onclick="answerWrong()" class="pink"></button>
+  <button hidden id="answer4" onclick="answerWrong()" class="pink"></button>
+
+  <button hidden id="answer5" onclick="answerWrong()" class="pink"></button>
+  <button hidden id="answer6" onclick="answerWrong()" class="pink"></button>
+  <button hidden id="answer7" onclick="questionThree()" class="pink"></button>
+  <button hidden id="answer8" onclick="answerWrong()" class="pink"></button>
+
+  <button hidden id="answer9" onclick="answerWrong()" class="pink"></button>
+  <button hidden id="answer10" onclick="answerquestionFour()" class="pink"></button>
+  <button hidden id="answer11" onclick="answerWrong()" class="pink"></button>
+  <button hidden id="answer12" onclick="answerWrong()" class="pink"></button>
+
+
+
   <button hidden id="restartGame" onclick="startGame()">Try again</button>
   <button hidden id="nextQuestion" onclick="nextQuestion()">Next Question</button>
-
+  <button hidden id="questionThree" onclick="questionThree()">Next Question</button>
   
 </body>
 

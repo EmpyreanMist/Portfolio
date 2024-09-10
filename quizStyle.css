@@ -5,6 +5,7 @@ button {
   margin-top: 15%;
   font-size: 25px;
   font-weight: bold;
+  border-radius: 50%;
 }
 
 body {
@@ -20,5 +21,17 @@ body {
   position: absolute;
   top: 45%;
   left: 89%;
+  background-color: red;
+}
+
+.pink {
+  background-color: violet;
+}
+
+#nextQuestion {
+  background-color: green;
+}
+
+#restartGame {
   background-color: red;
 }

@@ -21,13 +21,20 @@ h2, h1{
 
 
 /* Styling for my picture on index site */
-#myPicture {
-  position: absolute;
+.imagesOfMe {
   width: 300px;
+  height: 400px;
   border-radius: 50%;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 body {
   background-color: grey;
+  font-size: 25px;
 }
 
