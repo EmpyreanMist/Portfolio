@@ -1,0 +1,10 @@
+.navbar {
+  border: solid;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navImg {
+  width: 75px;
+  height: 75px;
+}
