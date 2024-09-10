@@ -11,17 +11,20 @@
 
 <body>
 
-  <h1 id="startText">Welcome to the Animal Kingdom Quiz</h1>
+  <h1 id="currentText">Welcome to the Animal Kingdom Quiz</h1>
   
 
   <button onclick="startGame()" id="startBtn">Start Game</button>
   <a href="index.html">
   <button id="homeBtn">Exit Game</button>
   </a>
-  <button hidden id="answer1"></button>
-  <button hidden id="answer2"></button>
-  <button hidden id="answer3"></button>
-  <button hidden id="answer4"></button>
+
+  <button hidden id="answer1" onclick="firstAnswerCorrect()"></button>
+  <button hidden id="answer2" onclick="firstAnswerWrong()"></button>
+  <button hidden id="answer3" onclick="firstAnswerWrong()"></button>
+  <button hidden id="answer4" onclick="firstAnswerWrong()"></button>
+  <button hidden id="restartGame" onclick="startGame()">Try again</button>
+  <button hidden id="nextQuestion" onclick="nextQuestion()">Next Question</button>
 
   
 </body>
