@@ -1,3 +1,5 @@
+
+/* Styling for the navigation bar */
 .navbar {
   border: solid;
   display: flex;
@@ -5,19 +7,27 @@
   background: linear-gradient(rgb(171, 24, 190), rgb(68, 92, 226));
 }
 
+
+/* Styling for the navigation images */
 .navImg {
   width: 75px;
   height: 75px;
   padding-top: 1px;
 }
 
-h2 {
+h2, h1{
   text-align: center;
 }
 
+
+/* Styling for my picture on index site */
 #myPicture {
   position: absolute;
   width: 300px;
   border-radius: 50%;
+}
+
+body {
+  background-color: grey;
 }
 
