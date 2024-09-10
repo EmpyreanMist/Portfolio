@@ -2,9 +2,16 @@
   border: solid;
   display: flex;
   justify-content: space-evenly;
+  background: linear-gradient(rgb(171, 24, 190), rgb(68, 92, 226));
 }
 
 .navImg {
   width: 75px;
   height: 75px;
+  padding-top: 1px;
 }
+
+h2 {
+  text-align: center;
+}
+
