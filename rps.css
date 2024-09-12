@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  background-color: grey;
+  color: white;
 }
 
 button {
@@ -14,11 +16,23 @@ button {
 .imgContainer {
   width: 500px; 
   height: 250px;
-  border: solid; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 150px;
+  
 }
 
 
 img {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
+  border: solid;
+  
+}
+
+#score {
+  font-size: 50px;
 }
