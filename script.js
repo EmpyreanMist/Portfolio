@@ -32,7 +32,7 @@ function myFunction(item) {
 }
 console.log(sum);
  */
-const person = {
+/* const person = {
   firstName: "Christian",
   lastName: "Fryksten",
   swede: true,
@@ -40,24 +40,24 @@ const person = {
   fullName: function(){
     return this.firstName + " " + this.lastName;
   }
-};
+}; */
 
 /* Changing the name of the string */
-person.firstName = "Bert";
+/* person.firstName = "Bert"; */
 
 /* Adding a variable into the object */
-person.homeTown = "Piteå";
+/* person.homeTown = "Piteå";
 
-person.fruitBasket = [[1,2,3], {town: "Malmö"}, "Kiwis"];
+person.fruitBasket = [[1,2,3], {town: "Malmö"}, "Kiwis"]; */
 
 /*  console.log(person); 
 console.log(person.fruitBasket[1].town);
  */
 
 /* Prints the function inside person to give full name */
-console.log(person.fullName());
+/* console.log(person.fullName()); */
 
 
 
 
-alert("Hello");
+//alert("Hello");
