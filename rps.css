@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  background: none;
+  border: none;
+}
+
+
+
+.imgContainer {
+  width: 500px; 
+  height: 250px;
+  border: solid; 
+}
+
+
+img {
+  width: 200px;
+  height: 200px;
+}
