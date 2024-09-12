@@ -1,11 +1,13 @@
 
 
-
-
 function checkWin(number) {
 
+  // AI variable random number 1 - 3 so AI can choose rock, paper or scissor
   const rng = Math.ceil(Math.random() * 3);
+  
   let scoreElement = document.querySelector("#score");
+
+  // Makes the scoreElement div into an integer
   let currentScore = parseInt(scoreElement.innerText);
   console.log(rng);
 

@@ -12,6 +12,11 @@ button {
 }
 
 
+.imgContainer img:hover {
+  opacity: 0.2;
+}
+
+
 
 .imgContainer {
   width: 500px; 
