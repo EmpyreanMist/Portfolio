@@ -35,6 +35,11 @@ h2, h1 {
 }
 
 body {
-  background-color: grey;
+
   font-size: 25px;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
 }
