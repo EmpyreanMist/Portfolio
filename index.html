@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="icon" type="image/jpg" href="images/portfolioFavicon.jpg" />
+  </head>
 
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-  <link rel='icon' type="image/jpg" href="images/portfolioFavicon.jpg">
-</head>
+  <body>
+    <!-- Navigation bar with images that links to other stuff -->
+    <div class="navbar">
+      <a href="index.html"> <img src="images/home.jpg" class="navImg" /></a>
 
-<body>
+      <a href="https://github.com/EmpyreanMist" target="_blank">
+        <img src="images/github-mark.png" class="navImg"
+      /></a>
 
+      <a
+        href="https://www.linkedin.com/in/christian-fryksten-321005198/"
+        target="_blank"
+      >
+        <img src="images/LI-In-Bug.png" class="navImg"
+      /></a>
 
-  <!-- Navigation bar with images that links to other stuff -->
-  <div class="navbar">
+      <a href="./projects/projects.html">
+        <img src="images/projects.png" class="navImg"
+      /></a>
 
-    <a href="index.html">
-      <img src="images/home.jpg" class="navImg"></a>
+      <a href="mailto:christianfryksten1@gmail.com" id="contactAnchor">
+        <img src="images/mail.jpg" class="navImg"
+      /></a>
+    </div>
 
-    <a href="https://github.com/EmpyreanMist" target="_blank">
-      <img src="images/github-mark.png" class="navImg"></a>
+    <h2>Hello! My name is Christian and this is my portfolio website.</h2>
 
-    <a href="https://www.linkedin.com/in/christian-fryksten-321005198/" target="_blank">
-      <img src="images/LI-In-Bug.png" class="navImg"></a>
+    <div class="imageContainer">
+      <img src="images/Christian.jpg" alt="Image of me" class="imagesOfMe" />
+      <img
+        src="images/flyboard.JPG"
+        alt="Image of me on flyboard"
+        class="imagesOfMe"
+      />
+    </div>
 
-    <a href="projects.html">
-      <img src="images/projects.png" class="navImg"></a>
+    <button id="dark-mode-tgl-btn">Toggle Darkmode</button>
 
-    <a href="mailto:christianfryksten1@gmail.com" id="contactAnchor">
-      <img src="images/mail.jpg" class="navImg"></a>
-
-  </div>
-
-  <h2>Hello! My name is Christian and this is my portfolio website.</h2>
-  
-
-
-  <div class="imageContainer">
-    <img src="images/Christian.jpg" alt="Image of me" class="imagesOfMe">
-    <img src="images/flyboard.JPG" alt="Image of me on flyboard" class="imagesOfMe">
-  </div>
-
-
-  <button id="dark-mode-tgl-btn">Toggle Darkmode</button>
-
-
-
-  <script src='script.js'></script>
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

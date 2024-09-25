@@ -11,31 +11,25 @@ button {
   border: none;
 }
 
-
 .imgContainer img:hover {
   opacity: 0.2;
 }
 
-
-
 .imgContainer {
-  width: 500px; 
+  width: 500px;
   height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   gap: 150px;
-  
 }
-
 
 img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border: solid;
-  
 }
 
 #score {

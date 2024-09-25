@@ -5,9 +5,7 @@
   justify-content: space-evenly;
   background: linear-gradient(rgb(171, 24, 190), rgb(68, 92, 226));
   min-width: 100%;
-
 }
-
 
 /* Styling for the navigation images */
 .navImg {
@@ -16,10 +14,10 @@
   margin: 50%;
 }
 
-h2, h1 {
+h2,
+h1 {
   text-align: center;
 }
-
 
 /* Styling for my picture on index site */
 .imagesOfMe {
@@ -35,11 +33,18 @@ h2, h1 {
 }
 
 body {
-
   font-size: 25px;
 }
 
 .dark-mode {
   background-color: #121212;
   color: white;
+}
+
+/* Div for pictures in projects site */
+.project-container {
+}
+/* Class for the pictures of the projects */
+.project-picture {
+  height: 350px;
 }
