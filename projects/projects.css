@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(to right, #434343, #000000);
+  color: white;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+  border: solid;
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(rgb(171, 24, 190), rgb(68, 92, 226));
+  min-width: 100%;
+}
+
+/* Styling for the navigation images */
+.navImg {
+  width: 50px;
+  height: 50px;
+  margin: 50%;
+}
+
+/* Div for pictures in projects site */
+.project-container {
+}
+
+/* Class for the pictures of the projects */
+.project-pic {
+  width: 250px;
+}
