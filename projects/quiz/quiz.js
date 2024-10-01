@@ -34,9 +34,9 @@ checkAnswerBtn.addEventListener("click", function () {
   let yourAnswer = inputAnswer.value;
   let correctAnswer = questionsAndAnswers[questionIndex].answer;
 
-  if (yourAnswer.length !== 0) {
+  if (yourAnswer.length !== 0 && yourAnswer === correctAnswer) {
     questionIndex++;
-    questionText.innerHTML = questionsAndAnswers[questionIndex].question;
+
     h1.innerHTML = "Quiz Game!";
   } else {
     h1.innerHTML = "You have to write something";

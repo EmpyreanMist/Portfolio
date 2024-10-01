@@ -1,7 +1,16 @@
 body {
-  text-align: center;
-  background-color: grey;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   color: white;
+}
+
+.text-container {
+  text-align: center;
 }
 
 button {
@@ -34,4 +43,21 @@ img {
 
 #score {
   font-size: 50px;
+}
+
+@media (max-width: 1000px) {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .imgContainer {
+    gap: 10px;
+    width: 200px;
+  }
+  body {
+    text-align: center;
+  }
+  h1 {
+    font-size: 20px;
+  }
 }

@@ -27,3 +27,9 @@ body {
 .project-pic {
   width: 250px;
 }
+
+@media (max-width: 1000px) {
+  .imgContainer {
+    width: 300px;
+  }
+}
