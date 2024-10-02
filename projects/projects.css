@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(to right, #434343, #000000);
   color: white;
+  text-align: center;
 }
 
 /* Styling for the navigation bar */
@@ -20,7 +21,12 @@ body {
 }
 
 /* Div for pictures in projects site */
-.project-container {
+.project-pics-container {
+  display: flex;
+  height: 60vh;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Class for the pictures of the projects */
